@@ -1,0 +1,162 @@
+.b {
+    background-color: blueviolet;
+    overflow-y: clip;
+    overflow-x: clip;
+}
+
+.go {
+    display: inline-block;
+    margin-left: 450px;
+    margin-top: 100px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "'gf_Dancing_Script variangf_Dancing_Script variant1', Tofut1";
+}
+
+.d {
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 438px;
+    border-radius: 12px;
+    width: 300px;
+    display: grid;
+}
+
+.e {
+    display: grid;
+    margin-top: 15px;
+}
+
+.i {
+    margin-top: 7px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    width: 300px;
+    background-color: rgb(216, 216, 216);
+    box-shadow: 5px 5px 10px rgba(2, 2, 2, 0.6);
+}
+
+.i:hover {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(2, 2, 182);
+}
+
+.i:active {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(2, 2, 182);
+}
+
+.p {
+    margin-left: 65px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.p1 {
+    margin-left: 35px;
+    margin-top: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    width: 250px;
+}
+
+.continue {
+    background-color: rgb(2, 2, 182);
+    height: 40px;
+    width: 250px;
+    color: white;
+    border: rgb(2, 2, 182);
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.15;
+    box-shadow: 5px 5px 10px rgba(2, 2, 2, 0.6);
+    margin-bottom: 0px;
+    margin-right: 15px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.continue:hover {
+    opacity: 0.8;
+}
+
+.continue:active {
+    opacity: 0.2;
+}
+
+.stretch-button {
+    background-color: rgb(2, 2, 182);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+        margin 0.15s;
+}
+
+.stretch-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.stretch-button:active {
+    opacity: 0.2;
+}
+
+.delete {
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: Arial;
+    height: 39px;
+    width: 80px;
+    color: rgb(2, 2, 182);
+    border-color: rgb(2, 2, 182);
+    background-color: white;
+    border-radius: 9px;
+    border-style: solid;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.delete:hover {
+    background-color: rgb(2, 2, 182);
+    color: white;
+    border: none;
+    opacity: 0.8;
+}
+
+.delete:active {
+    opacity: 0.2;
+}
