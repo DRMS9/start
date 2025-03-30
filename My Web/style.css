@@ -1,3 +1,14 @@
+.r {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 507px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
 .b {
     background-color: blueviolet;
     overflow-y: clip;
@@ -7,7 +18,7 @@
 .go {
     display: inline-block;
     margin-left: 450px;
-    margin-top: 100px;
+    margin-top: 8px;
     width: 300px;
     text-align: center;
     font-family: Arial;
